@@ -1,0 +1,30 @@
+.subject-panel {
+  color: #fff; }
+
+.subject-form {
+  padding-top: 5px;
+  background: #5B504A; }
+
+.subjectSearch {
+  margin-top: 22px;
+  padding-top: 14px;
+  opacity: .8;
+  border-left-radius: none; }
+
+.subEdit {
+  opacity: .8;
+  margin-top: 22px;
+  padding: 19px 0; }
+  .subEdit a {
+    text-decoration: none;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 1.3em;
+    margin-right: 15px; }
+    .subEdit a:hover {
+      color: #fff; }
+    .subEdit a i {
+      padding-left: 10px;
+      padding-right: 10px; }
+
+/*# sourceMappingURL=subjectAll.css.map */

@@ -1,0 +1,67 @@
+.header {
+    .content {
+        margin-top: 15px;
+        opacity: .8;
+    }
+
+    .wel {
+
+
+        .adminTop {
+            padding-bottom: 30px;
+            padding-top: 20px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #5B504A;
+
+            h1 {
+                padding-top: 3px;
+
+                margin: 0; // padding-left: 15px;
+            }
+        }
+        .panel-footer {
+            &:hover {
+                background: #ccc;
+            }
+        }
+        color: #fff;
+        a {
+            color: #333333;
+        }
+        .panelUser {
+            background: #F19B2C;
+
+            i {
+                color: #CD8425;
+            }
+        }
+        .panelExam {
+            background: #18A55D;
+
+
+            i {
+                color: #148B4F;
+            }
+        }
+        .panelDetail {
+            background: #f36a59;
+
+            i {
+                color: #CF5A4C;
+            }
+        }
+        .panel-Balance {
+            background: #20C1ED;
+
+            i {
+                color: #1BA4CA;
+            }
+        }
+    }
+    @include mainNav;
+    /**/
+    @include panel-left;
+    .content {
+        padding: 20px 0;
+    }
+}

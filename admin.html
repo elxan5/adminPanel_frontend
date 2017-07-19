@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin panel</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Sass/main.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="panel-left">
+                            <ul class="list-group">
+                                <li class="logo">
+                                    <a href="">Tibb Admin</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                     <span class="col-md-3">
+                                     <i class="fa fa-home" aria-hidden="true"></i>  
+                                     </span>
+                                    Baş səhifə</a></li>
+                                <li>
+                                    <a href="userPage.html">
+                                    <span class="col-md-3">
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                    </span>İstifadəçilər</a></li>
+                                <li>
+                                    <a href="subjectPage.html"> 
+                                    <span class="col-md-3">
+                                        <i class="fa fa-puzzle-piece"></i>
+                                    </span> Fənnlər</a></li>
+                                <li class="">
+                                    <a href="#"> 
+                                    <span class="col-md-3">
+                                        <i class="fa fa-info infoIcon" aria-hidden="true"></i>
+                                    </span>Məlumatlar</a></li>
+                                <li>
+                                    <a href="#">
+                                    <span class="col-md-3">
+                                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                                    </span>Ayarlar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <nav class="navbar-default nav">
+                            <div class="col-md-2">
+                                <div class="c-header-icon">
+                                    <button class="navBar-toggle">
+                                        <span class="bar-top"></span>
+                                        <span class="bar-mid"></span>
+                                        <span class="bar-bot"></span>
+                                    </button>
+                                </div>
+                                <div class="c-header-icon basket  main-log">
+                                    <span class="c-badge c-badge--header-icon animated bounce main">2</span>
+                                    <i class="fa fa-shopping-basket"></i>
+                                </div>
+                                <div class="c-header-icon">
+                                    <a href="subjectPage.html">
+                                      <i class="fa fa-plus addSub" aria-hidden="true"></i>                                
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-md-push-6">
+                                <form action="" class="search-form mainSearch ">
+                                    <div class="form-group has-feedback">
+                                        <label for="search" class="sr-only">Search</label>
+                                        <input type="text" class="form-control " name="search" id="search" placeholder="Axtarış...">
+                                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-1 pull-right">
+                                <div class="row">
+                                    <div class="c-header-icon has-dropdown">
+                                        <span class="c-badge c-badge--header-icon animated bounce">10</span>
+                                        <i class="fa fa-bell"></i>
+                                        <div class="c-dropdown c-dropdown--notifications">
+                                            <div class="c-dropdown__header"></div>
+                                            <div class="c-dropdown__content"></div>
+                                        </div>
+                                    </div>
+                                    <div class="c-header-icon logout ">
+                                        <i class="fa fa-power-off"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <!---->
+                    <div class="clearfix"></div>
+                    <section class="content">
+                        <div class="row">
+                            <div class="wel">
+                                <div class="col-md-12 adminTop">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                        <div class="row">
+                                        <div class="col-md-2"> 
+                                            <i class="fa fa-home fa-3x" aria-hidden="true"></i> 
+                                         </div>
+                                        <div class="col-md-9">
+                                           <h1>Baş səhifə</h1> 
+                                        </div>
+                                             
+                                        </div>
+                                          
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="panel panelUser">
+                                        <div class="panel-heading">
+                                            <div class="row">
+                                                <div class="col-xs-3">
+                                                    <i class="fa fa-users fa-4x" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="col-xs-9 text-right">
+                                                    <div class="huge">0</div>
+                                                    <div>Istifadəçilər</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="userPage.html">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Ətraflı</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wel">
+                                <div class="col-lg-3">
+                                    <div class="panel panelExam">
+                                        <div class="panel-heading">
+                                            <div class="row">
+                                                <div class="col-xs-3">
+                                                    <i class="fa fa-files-o fa-4x"></i>
+                                                </div>
+                                                <div class="col-xs-9 text-right">
+                                                    <div class="huge">0</div>
+                                                    <div>Fənnlər</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="subjectAll.html">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Ətraflı</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wel">
+                                <div class="col-lg-3">
+                                    <div class="panel panelDetail">
+                                        <div class="panel-heading">
+                                            <div class="row">
+                                                <div class="col-xs-3">
+                                                    <i class="fa fa-signal fa-4x"></i>
+                                                </div>
+                                                <div class="col-xs-9 text-right">
+                                                    <div class="huge"></div>
+                                                    <div>Detallar</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Ətraflı</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wel">
+                                <div class="col-lg-3">
+                                    <div class="panel panel-Balance">
+                                        <div class="panel-heading">
+                                            <div class="row">
+                                                <div class="col-xs-3">
+                                                    <i class="fa fa-usd fa-4x"></i>
+                                                </div>
+                                                <div class="col-xs-9 text-right">
+                                                    <div class="huge">0.00 Azn</div>
+                                                    <div>Balans</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Ətraflı</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</html>
